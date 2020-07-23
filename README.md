@@ -35,7 +35,7 @@ Further Notebook-external dependencies are non existant and hence will not be co
 
 cardio_train.csv: Dataset used for this project in .csv format.
 
-Udacity_Create_a_Blogpost.ipynb: Jupyter Noptebook in Python, that was used for analysing the dataset using the process of CRISP-DM.
+Udacity_Capstone.ipynb: Jupyter Noptebook in Python, that was used for analysing the dataset using the process of CRISP-DM.
 
 # How to interact with the repositories content
 
