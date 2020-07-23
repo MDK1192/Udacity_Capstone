@@ -12,29 +12,24 @@ A Blogpost can be describing my findings, can be found [here](https://medium.com
 This project was initialized in a Jupyter Notebook using Python 3. Dependencies are implemented within the Notebook itself. 
 Further Notebook-external dependencies are non existant and hence will not be covered.
 
-import pandas as pd
-import matplotlib.pyplot as plt
-%matplotlib inline
-import seaborn as sns
-import numpy as np
-import scipy as scp
-
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-
-from sklearn.linear_model import LogisticRegression
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.svm import SVC
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.neural_network import MLPClassifier
-
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import recall_score, precision_score
-
-from sklearn.model_selection import cross_validate, RepeatedKFold
-from sklearn.model_selection import GridSearchCV
-from sklearn.model_selection import RandomizedSearchCV
+- pandas 
+- matplotlib.pyplot 
+- seaborn 
+numpy
+scipy
+sklearn.preprocessing: StandardScaler
+sklearn.model_selection: train_test_split
+sklearn.linear_model: LogisticRegression
+sklearn.neighbors: KNeighborsClassifier
+sklearn.tree: DecisionTreeClassifier
+sklearn.svm: SVC
+sklearn.ensemble: RandomForestClassifier
+sklearn.neural_network: MLPClassifier
+sklearn.metrics import: accuracy_score
+sklearn.metrics import: recall_score, precision_score
+sklearn.model_selection: cross_validate, RepeatedKFold
+sklearn.model_selection: GridSearchCV
+sklearn.model_selection: RandomizedSearchCV
 
 # File Descriptions
 
